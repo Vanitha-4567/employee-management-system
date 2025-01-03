@@ -9,10 +9,17 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
+<<<<<<< HEAD
 	<artifactId>spring-thymleaf-crud-web-app1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-thymleaf-crud-web-app1</name>
 	<description>Demo project for Spring Boot and thymleaf</description>
+=======
+	<artifactId>registration-login-spring-boot-security-thymeleafs1</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>registration-login-spring-boot-security-thymeleafs1</name>
+	<description>Demo project for Spring Boot  thymeleafs and Hibernate</description>
+>>>>>>> 84ee3679b12afc27ed9648bb2022a0ed5d326fa0
 	<url/>
 	<licenses>
 		<license/>
@@ -36,12 +43,26 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
+<<<<<<< HEAD
+=======
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+>>>>>>> 84ee3679b12afc27ed9648bb2022a0ed5d326fa0
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+<<<<<<< HEAD
+=======
+		<dependency>
+			<groupId>org.thymeleaf.extras</groupId>
+			<artifactId>thymeleaf-extras-springsecurity6</artifactId>
+		</dependency>
+>>>>>>> 84ee3679b12afc27ed9648bb2022a0ed5d326fa0
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -60,8 +81,18 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
+<<<<<<< HEAD
 			<groupId>com.index.org</groupId>
 			<artifactId>org.name</artifactId>
+=======
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.example</groupId>
+			<artifactId>spring-thymleaf-crud-web-app1</artifactId>
+>>>>>>> 84ee3679b12afc27ed9648bb2022a0ed5d326fa0
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
